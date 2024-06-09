@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE library SYSTEM "books.dtd">
+<library>
+    <book>
+        <title>A Brief History of Time</title>
+        <author>Stephen Hawking</author>
+        <isbn>9780553380163</isbn>
+        <publisher>Bantam Books</publisher>
+        <edition>1st</edition>
+        <price>$15.00</price>
+    </book>
+    <book>
+        <title>The Great Gatsby</title>
+        <author>F. Scott Fitzgerald</author>
+        <isbn>9780743273565</isbn>
+        <publisher>Charles Scribner's Sons</publisher>
+        <edition>2nd</edition>
+        <price>$10.50</price>
+    </book>
+    <!-- Add more book entries as needed -->
+</library>

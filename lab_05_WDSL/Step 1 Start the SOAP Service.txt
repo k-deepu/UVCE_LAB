@@ -1,0 +1,19 @@
+Step 1: Start the SOAP Service
+First, ensure your SOAP service is running by executing the hello_service.py script:
+
+
+Copy code
+python hello_service.py
+Step 2: Open SoapUI and Create a New Project
+Open SoapUI.
+Go to File -> New SOAP Project.
+In the New SOAP Project dialog:
+Project Name: Enter HelloServiceProject.
+Initial WSDL: Enter http://localhost:8000/?wsdl.
+Click OK.
+SoapUI will import the WSDL and create a new project with the SayHello operation.
+
+Step 3: Test the Service
+Expand the project tree in SoapUI and find the SayHello request under the SayHello operation.
+Double-click on the Request 1 node to open the request editor.
+In the request editor, you will see a template SOAP request. Modify it to include the name parameter:
